@@ -1,0 +1,138 @@
+*{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    box-sizing: border-box;
+}
+.nav-bar{
+    background-color: crimson;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+ color: white;
+ font-weight: 600;
+ font-family: arial;
+ font-size: 20px;
+}
+li{
+    /* list-style: none; */
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+a{
+    text-decoration: none; color: inherit;
+}
+button{
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+} 
+.img-div{
+ 
+    
+}
+.thumb1{
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 500px;
+    
+}
+.container{
+    display: flex;
+    
+    margin-left: 10px;
+
+    
+}
+.thumb2{
+    margin-left: 5px;
+    border-radius: 10px;
+    width: 500px;
+
+   
+   
+}
+
+
+.author{
+display: inline-block;
+}
+
+.matthew-james{
+    display: inline-block;
+
+}
+.video-info{
+    display: inline-block;
+
+}
+.video-author{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.video-stats{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.article{
+ font-family: arial; 
+ font-size: 15px;
+ font-weight: bold;
+ display: inline-block;
+ margin-left: 20px;
+ 
+}
+.article1{
+    font-family: arial; 
+ font-size: 15px;
+ font-weight: bold;
+ display: inline-block;
+ margin-left:20px;
+
+}
+.footer-container{
+
+color: white;
+text-align: center;
+
+}
+footer{
+    background-color: black; 
+    clear: both;
+    height: 46px;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    position: fixed;
+
+}
+.footer-bottom{
+    display: inline-block;
+}
+.icons{
+    
+}
